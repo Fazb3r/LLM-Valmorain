@@ -1,0 +1,27 @@
+{
+  "name": "llm-valmorain",
+  "version": "1.0.0",
+  "description": "Valmorain — A local, privacy-centric AI chatbot powered by a local Llama model and discord.py, uses edge.tts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fazb3r/LLM-Valmorain.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Fazb3r/LLM-Valmorain/issues"
+  },
+  "homepage": "https://github.com/Fazb3r/LLM-Valmorain#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "googleapis": "^174.0.1",
+    "node-cron": "^4.6.0",
+    "sqlite3": "^6.0.1"
+  }
+}
