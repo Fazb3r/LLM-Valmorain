@@ -3,3 +3,7 @@ venv/
 .env
 *.log
 __pycache__/
+*.db
+*.sqlite
+client_secret*.json
+token.json
